@@ -5,9 +5,9 @@
 package com.era7.bioinfo.bio4j.tools;
 
 import com.era7.bioinfo.bio4j.CommonData;
-import com.ohnosequences.bio4j.model.nodes.GoTerm;
-import com.ohnosequences.bio4j.model.relationships.go.IsAGoRel;
-import com.ohnosequences.bio4j.model.util.Bio4jManager;
+import com.era7.bioinfo.bio4jmodel.nodes.GoTermNode;
+import com.era7.bioinfo.bio4jmodel.relationships.go.IsAGoRel;
+import com.era7.bioinfo.bio4jmodel.util.Bio4jManager;
 import com.era7.lib.bioinfoxml.gexf.AttValueXML;
 import com.era7.lib.bioinfoxml.gexf.AttValuesXML;
 import com.era7.lib.bioinfoxml.gexf.AttributeXML;

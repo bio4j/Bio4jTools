@@ -4,12 +4,12 @@
  */
 package com.era7.bioinfo.bio4j.tools;
 
-import com.ohnosequences.bio4j.model.nodes.Dataset;
-import com.ohnosequences.bio4j.model.nodes.Protein;
-import com.ohnosequences.bio4j.model.nodes.citation.Article;
-import com.ohnosequences.bio4j.model.relationships.protein.ProteinDatasetRel;
-import com.ohnosequences.bio4j.model.util.Bio4jManager;
-import com.ohnosequences.bio4j.model.util.NodeRetriever;
+import com.era7.bioinfo.bio4jmodel.nodes.DatasetNode;
+import com.era7.bioinfo.bio4jmodel.nodes.ProteinNode;
+import com.era7.bioinfo.bio4jmodel.nodes.citation.ArticleNode;
+import com.era7.bioinfo.bio4jmodel.relationships.protein.ProteinDatasetRel;
+import com.era7.bioinfo.bio4jmodel.util.Bio4jManager;
+import com.era7.bioinfo.bio4jmodel.util.NodeRetriever;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
