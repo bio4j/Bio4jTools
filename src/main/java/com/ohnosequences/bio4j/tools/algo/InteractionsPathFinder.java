@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.era7.bioinfo.bio4j.tools.algo;
+package com.ohnosequences.bio4j.tools.algo;
 
 
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.ProteinNode;
-import com.era7.bioinfo.bio4j.neo4j.model.relationships.protein.ProteinProteinInteractionRel;
+import com.ohnosequences.bio4j.neo4j.model.nodes.ProteinNode;
+import com.ohnosequences.bio4j.neo4j.model.relationships.protein.ProteinProteinInteractionRel;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
