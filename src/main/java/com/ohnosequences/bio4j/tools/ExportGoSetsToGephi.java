@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.era7.bioinfo.bio4j.tools;
+package com.ohnosequences.bio4j.tools;
 
 import com.era7.bioinfo.bio4j.CommonData;
-import com.era7.bioinfo.bio4jmodel.nodes.GoTermNode;
-import com.era7.bioinfo.bio4jmodel.relationships.go.IsAGoRel;
-import com.era7.bioinfo.bio4jmodel.util.Bio4jManager;
+import com.era7.bioinfo.bio4j.neo4j.model.nodes.GoTermNode;
+import com.era7.bioinfo.bio4j.neo4j.model.relationships.go.IsAGoRel;
+import com.era7.bioinfo.bio4j.neo4j.model.util.Bio4jManager;
 import com.era7.lib.bioinfoxml.gexf.AttValueXML;
 import com.era7.lib.bioinfoxml.gexf.AttValuesXML;
 import com.era7.lib.bioinfoxml.gexf.AttributeXML;
@@ -22,6 +22,7 @@ import com.era7.lib.bioinfoxml.go.GoAnnotationXML;
 import com.era7.lib.bioinfoxml.go.GoTermXML;
 import com.era7.lib.era7xmlapi.model.XMLElement;
 import com.era7.lib.era7xmlapi.model.XMLElementException;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -33,6 +34,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+
 import org.jdom.Element;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;

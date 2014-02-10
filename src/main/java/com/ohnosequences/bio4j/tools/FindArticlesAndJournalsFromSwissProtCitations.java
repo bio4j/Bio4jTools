@@ -2,14 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.era7.bioinfo.bio4j.tools;
+package com.ohnosequences.bio4j.tools;
 
-import com.era7.bioinfo.bio4jmodel.nodes.DatasetNode;
-import com.era7.bioinfo.bio4jmodel.nodes.ProteinNode;
-import com.era7.bioinfo.bio4jmodel.nodes.citation.ArticleNode;
-import com.era7.bioinfo.bio4jmodel.relationships.protein.ProteinDatasetRel;
-import com.era7.bioinfo.bio4jmodel.util.Bio4jManager;
-import com.era7.bioinfo.bio4jmodel.util.NodeRetriever;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -19,8 +13,16 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+
 import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Relationship;
+
+import com.era7.bioinfo.bio4j.neo4j.model.nodes.DatasetNode;
+import com.era7.bioinfo.bio4j.neo4j.model.nodes.ProteinNode;
+import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.ArticleNode;
+import com.era7.bioinfo.bio4j.neo4j.model.relationships.protein.ProteinDatasetRel;
+import com.era7.bioinfo.bio4j.neo4j.model.util.Bio4jManager;
+import com.era7.bioinfo.bio4j.neo4j.model.util.NodeRetriever;
 
 /**
  *

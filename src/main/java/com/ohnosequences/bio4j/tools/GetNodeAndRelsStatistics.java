@@ -14,52 +14,17 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
-package com.era7.bioinfo.bio4j.tools;
+package com.ohnosequences.bio4j.tools;
 
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.AlternativeProductNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.CityNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.CommentTypeNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.ConsortiumNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.CountryNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.DatasetNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.EnzymeNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.FeatureTypeNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.GoTermNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.InstituteNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.InterproNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.IsoformNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.KeywordNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.OrganismNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.PersonNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.PfamNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.ProteinNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.SequenceCautionNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.SubcellularLocationNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.TaxonNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.ArticleNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.BookNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.DBNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.JournalNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.OnlineArticleNode;
 import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.OnlineJournalNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.PatentNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.PublisherNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.SubmissionNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.ThesisNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.citation.UnpublishedObservationNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.ncbi.NCBITaxonNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.reactome.ReactomeTermNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.CDSNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.GeneNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.GenomeElementNode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.MRNANode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.MiscRNANode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.NcRNANode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.RRNANode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.TRNANode;
-import com.era7.bioinfo.bio4j.neo4j.model.nodes.refseq.rna.TmRNANode;
 import com.era7.bioinfo.bio4j.neo4j.model.util.Bio4jManager;
 import com.era7.lib.bioinfo.bioinfoutil.Executable;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -67,6 +32,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+
 import org.neo4j.graphdb.Direction;
 import org.neo4j.graphdb.Node;
 import org.neo4j.graphdb.Relationship;
